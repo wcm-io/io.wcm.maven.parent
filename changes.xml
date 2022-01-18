@@ -28,6 +28,9 @@
         Use io.wcm.maven.global-parent instead of io.wcm.parent_toplevel as parent.
       </action>
       <action type="update" dev="sseifert">
+        Define versions for Maven Plugin Plugin/Annotations and Maven Invoker Plugin.
+      </action>
+      <action type="update" dev="sseifert">
         Set SonarCloud properties.
       </action>
     </release>
