@@ -17,7 +17,6 @@ Maven Parent POMs, Build Tools and Plugins.
 * [Content Package Maven Plugin](plugins/wcmio-content-package-maven-plugin/): Upload and download content packages.
 * [i18n Maven Plugin](plugins/i18n-maven-plugin/): Transforms and validates i18n resources for usage in Sling/AEM applications.
 * [Node.js Maven Plugin](plugins/nodejs-maven-plugin/): Maven Plugin to wrap the Node.js execution.
-* [JSON Dialog Converter Maven Plugin](plugins/json-dialog-conversion-plugin/): Converts AEM Dialog Definitions in JSON Format.
 * [Sling-Initial-Content Transformation Maven Plugin](plugins/sling-initial-content-transform-maven-plugin/): Extracts Sling-Initial-Content from OSGi bundle and creates content package and a bundle without it.
 
 
