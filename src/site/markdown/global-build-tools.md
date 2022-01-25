@@ -14,4 +14,7 @@ The settings in this build tools project cover:
 * PMD ruleset
 * Eclipse default settings
 
-Source code: [maven/global-build-tools](https://github.com/wcm-io/wcm-io-tooling/tree/develop/maven/global-build-tools)
+
+### GitHub Repository
+
+Sources: https://github.com/wcm-io/io.wcm.maven.global-build-tools
