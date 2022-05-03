@@ -362,8 +362,6 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <!-- Skip maven-invoker-plugin integration tests -->
-        <invoker.skip>true</invoker.skip>
         <!-- Skip maven-archetype-plugin integration tests -->
         <archetype.test.skip>true</archetype.test.skip>
       </properties>
