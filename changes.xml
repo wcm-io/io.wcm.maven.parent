@@ -23,15 +23,18 @@
     xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd">
   <body>
 
-    <release version="2.0.2" date="not released">
-      <action type="update" dev="sseifert">
-        Set OddEvenVersionPolicy for gitflow-maven-plugin.
-      </action>
+    <release version="2.0.4" date="2022-05-10">
       <action type="update" dev="sseifert">
         Update to global-parent 44.
       </action>
       <action type="update" dev="sseifert">
         Update testing dependencies.
+      </action>
+    </release>
+
+    <release version="2.0.2" date="2022-03-30">
+      <action type="update" dev="sseifert">
+        Set OddEvenVersionPolicy for gitflow-maven-plugin.
       </action>
     </release>
 
