@@ -54,7 +54,7 @@
 
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.com/wcm-io</url>
+    <url>https://github.com/wcm-io/${project.artifactId}/issues/</url>
   </issueManagement>
 
   <developers>

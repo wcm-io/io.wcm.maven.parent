@@ -5,7 +5,7 @@
 
 Parent POM for Maven Tooling.
 
-Issues: https://wcm-io.atlassian.net/browse/WTOOL<br/>
+Issues: https://github.com/wcm-io/io.wcm.maven.parent/issues<br/>
 Wiki: https://wcm-io.atlassian.net/wiki/<br/>
 Continuous Integration: https://github.com/wcm-io/io.wcm.maven.parent/actions<br/>
 Commercial support: https://wcm.io/commercial-support.html
