@@ -137,7 +137,7 @@
     <menu name="Contribute" inherit="top">
       <item name="Contribute" href="https://wcm.io/contribute.html" />
       <item name="Manifest" href="https://wcm.io/manifest.html" />
-      <item name="Issues" href="https://wcm-io.atlassian.net" />
+      <item name="Issues" href="https://github.com/wcm-io" />
       <item name="Wiki" href="https://wcm-io.atlassian.net/wiki/" />
       <item name="Mailing Lists" href="https://wcm.io/mailing-lists.html" />
       <item name="Fork on GitHub" href="https://github.com/wcm-io" />
