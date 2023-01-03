@@ -84,6 +84,7 @@
 
     <!-- Versions -->
     <maven-plugin-plugin.version>3.7.0</maven-plugin-plugin.version>
+    <mockito.version>4.11.0</mockito.version>
 
     <!-- set default empty argLine when not executing jacoco -->
     <argLine />
@@ -130,12 +131,12 @@
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>
-        <version>4.11.0</version>
+        <version>${mockito.version}</version>
       </dependency>
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-junit-jupiter</artifactId>
-        <version>4.11.0</version>
+        <version>${mockito.version}</version>
       </dependency>
 
       <!-- Maven Plugin Tooling -->
