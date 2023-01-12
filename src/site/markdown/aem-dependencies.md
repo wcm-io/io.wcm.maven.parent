@@ -6,7 +6,7 @@ The first part of the AEM dependencies version number matches with the AEM versi
 
 ### AEM Cloud Service
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-cloud-dependencies/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-cloud-dependencies)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.aem-cloud-dependencies)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.aem-cloud-dependencies/)
 
 ```xml
 <dependency>
@@ -23,7 +23,7 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-cloud-dependencies
 
 ### AEM 6.5 - Latest Version
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-dependencies/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-dependencies)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.aem-dependencies)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.aem-dependencies/)
 
 
 ```xml

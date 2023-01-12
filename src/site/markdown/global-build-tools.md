@@ -2,7 +2,7 @@
 
 Definition of rules for static code analysis tools and IDEs.
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-build-tools/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-build-tools)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.global-build-tools)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.global-build-tools/)
 
 
 ### Overview

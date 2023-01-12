@@ -2,7 +2,7 @@
 
 Global parent for Maven artifact hierarchy. Defines fixed versions of Maven plugins to be used and certain general Maven settings.
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.global-parent)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.global-parent)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.global-parent/)
 
 
 ### Overview

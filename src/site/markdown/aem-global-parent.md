@@ -2,7 +2,7 @@
 
 Global parent for Maven artifact hierarchy for AEM projects. Defines AEM-specific plugins and general Maven settings.
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-global-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.wcm.maven/io.wcm.maven.aem-global-parent)
+[![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.aem-global-parent)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.aem-global-parent/)
 
 
 ### Overview
