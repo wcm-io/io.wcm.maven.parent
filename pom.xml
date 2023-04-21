@@ -84,7 +84,7 @@
 
     <!-- Versions -->
     <maven-plugin-plugin.version>3.8.1</maven-plugin-plugin.version>
-    <mockito.version>5.3.0</mockito.version>
+    <mockito.version>5.3.1</mockito.version>
 
     <!-- set default empty argLine when not executing jacoco -->
     <argLine />
