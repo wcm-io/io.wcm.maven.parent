@@ -30,6 +30,9 @@
       <action type="update" dev="sseifert">
         Update global-parent dependency to 56.
       </action>
+      <action type="update" dev="sseifert">
+        Update Site categories.
+      </action>
     </release>
 
     <release version="2.1.4" date="2023-12-12">
