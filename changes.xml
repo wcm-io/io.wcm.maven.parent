@@ -25,9 +25,6 @@
 
     <release version="2.1.6" date="not released">
       <action type="update" dev="sseifert">
-        Define Maven version to 3.8.8 (for all plugins).
-      </action>
-      <action type="update" dev="sseifert">
         Update global-parent dependency to 56.
       </action>
       <action type="update" dev="sseifert">
