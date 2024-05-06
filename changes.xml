@@ -27,6 +27,9 @@
       <action type="update" dev="sseifert">
         Update global-parent dependency to 57.
       </action>
+      <action type="update" dev="sseifert">
+        Enable plugin-info report for Maven Plugins.
+      </action>
     </release>
 
     <release version="2.1.6" date="2024-01-25">
