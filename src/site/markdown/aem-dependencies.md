@@ -47,7 +47,7 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-dependencies
 <dependency>
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-  <version>6.5.0.0005</version>
+  <version>6.5.0.0007</version>
   <type>pom</type>
   <scope>import</scope>
 </dependency>
