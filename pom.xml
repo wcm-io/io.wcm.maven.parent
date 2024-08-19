@@ -83,7 +83,7 @@
     <site.deploy.url>scm:git:https://github.com/wcm-io/wcm-io.github.io.git</site.deploy.url>
 
     <!-- Versions -->
-    <maven-plugin-plugin.version>3.13.1</maven-plugin-plugin.version>
+    <maven-plugin-plugin.version>3.14.0</maven-plugin-plugin.version>
     <mockito.version>5.12.0</mockito.version>
 
     <!-- set default empty argLine when not executing jacoco -->
