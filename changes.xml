@@ -27,6 +27,9 @@
       <action type="update" dev="sseifert">
         Update global-parent dependency to 60.
       </action>
+      <action type="update" dev="sseifert">
+        Update plugins and dependencies to latest versions.
+      </action>
     </release>
 
     <release version="2.1.8" date="2024-06-04">
