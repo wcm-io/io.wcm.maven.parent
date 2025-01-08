@@ -23,6 +23,15 @@
     xsi:schemaLocation="http://maven.apache.org/changes/1.0.0 http://maven.apache.org/plugins/maven-changes-plugin/xsd/changes-1.0.0.xsd">
   <body>
 
+    <release version="2.2.0" date="2025-01-08">
+      <action type="update" dev="sseifert">
+        Switch to latest maven-site-plugin and update to reflow-maven-skin 1.3.2.
+      </action>
+      <action type="update" dev="sseifert">
+        Update plugins and dependencies to latest versions.
+      </action>
+    </release>
+
     <release version="2.1.10" date="2024-12-09">
       <action type="update" dev="sseifert">
         Update global-parent dependency to 60.
