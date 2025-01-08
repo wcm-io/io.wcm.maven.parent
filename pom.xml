@@ -31,7 +31,7 @@
 
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.parent</artifactId>
-  <version>2.1.10</version>
+  <version>2.2.0</version>
   <packaging>pom</packaging>
 
   <name>Maven Tooling</name>
@@ -84,7 +84,7 @@
 
     <!-- Versions -->
     <maven-plugin-plugin.version>3.15.1</maven-plugin-plugin.version>
-    <mockito.version>5.14.2</mockito.version>
+    <mockito.version>5.15.2</mockito.version>
 
     <!-- set default empty argLine when not executing jacoco -->
     <argLine />
@@ -124,7 +124,7 @@
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
-        <version>5.11.3</version>
+        <version>5.11.4</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -184,13 +184,7 @@
           <dependency>
             <groupId>io.wcm.maven.skins</groupId>
             <artifactId>reflow-velocity-tools</artifactId>
-            <version>1.0.2</version>
-          </dependency>
-          <!-- Reflow skin requires Velocity >= 1.7  -->
-          <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>1.7</version>
+            <version>1.1.0</version>
           </dependency>
         </dependencies>
         <configuration>
@@ -299,18 +293,6 @@
               <version>${maven-release-plugin.version}</version>
             </dependency>
           </dependencies>
-        </plugin>
-
-        <!-- Stick with old versions of site plugins because latest ones use Doxia 2.x, which is not compatible with our io.wcm.maven.skins.reflow-velocity-tools -->
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-site-plugin</artifactId>
-          <version>3.12.1</version>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>3.5.0</version>
         </plugin>
 
       </plugins>
