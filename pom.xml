@@ -25,13 +25,13 @@
   <parent>
     <groupId>io.wcm.maven</groupId>
     <artifactId>io.wcm.maven.global-parent</artifactId>
-    <version>60</version>
+    <version>61</version>
     <relativePath/>
   </parent>
 
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.parent</artifactId>
-  <version>2.2.0</version>
+  <version>2.2.2</version>
   <packaging>pom</packaging>
 
   <name>Maven Tooling</name>
@@ -211,6 +211,38 @@
           <subDirectory>${site.url.module.prefix}</subDirectory>
           <skipDeletedFiles>true</skipDeletedFiles>
         </configuration>
+      </plugin>
+
+      <!-- Workaround for change of report filename changes-report.html to changes.html with maven-changes-plugin 3.x
+           We have a lot of links out there from GitHub releases, and we cannot configure a server-side redirect for GitHub pages.
+           So, create a file that redirects to the new report name here. -->
+      <plugin>
+        <groupId>io.github.olivierlemasle.maven</groupId>
+        <artifactId>plaintext-maven-plugin</artifactId>
+        <version>1.0.0</version>
+        <configuration>
+          <files>
+            <file>
+              <name>site/changes-report.html</name>
+              <lines>
+                <line><![CDATA[<!DOCTYPE html>]]></line>
+                <line><![CDATA[<html>]]></line>
+                <line><![CDATA[<head><meta http-equiv="refresh" content="0;url=changes.html"></head>]]></line>
+                <line><![CDATA[<body>Filename changed to <a href="changes.html">changes.html</a>.</body>]]></line>
+                <line><![CDATA[</html>]]></line>
+              </lines>
+            </file>
+          </files>
+        </configuration>
+        <executions>
+          <execution>
+            <id>generate-file</id>
+            <phase>site</phase>
+            <goals>
+              <goal>write</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
     </plugins>
