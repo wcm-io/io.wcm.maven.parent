@@ -26,7 +26,7 @@
 
     <release version="2.2.4" date="not released">
       <action type="update" dev="sseifert">
-        Update global-parent dependency to 63.
+        Update global-parent dependency to 64.
       </action>
     </release>
 
