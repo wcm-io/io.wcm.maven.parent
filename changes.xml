@@ -26,10 +26,10 @@
 
     <release version="2.2.4" date="not released">
       <action type="update" dev="sseifert">
-        Update global-parent dependency to 64.
+        Enable rendering of changes reports in HTML format again by reconfiguring maven-changes-plugin 3.0.0-M3.
       </action>
       <action type="update" dev="sseifert">
-        Enable rendering of changes reports in HTML format again by reconfiguring maven-changes-plugin 3.0.0-M3.
+        Update global-parent dependency to 65.
       </action>
     </release>
 
