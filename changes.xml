@@ -31,6 +31,9 @@
       <action type="update" dev="sseifert">
         Update global-parent dependency to 65.
       </action>
+      <action type="update" dev="sseifert">
+        Update Site categories.
+      </action>
     </release>
 
     <release version="2.2.2" date="2025-02-21">
