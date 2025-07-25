@@ -24,6 +24,15 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
+    <release version="2.2.6" date="2025-07-25">
+      <action type="update" dev="sseifert">
+        Update global-parent dependency to 66.
+      </action>
+      <action type="update" dev="sseifert">
+        Update plugins and dependencies to latest versions.
+      </action>
+    </release>
+
     <release version="2.2.4" date="2025-06-04">
       <action type="update" dev="sseifert">
         Enable rendering of changes reports in HTML format again by reconfiguring maven-changes-plugin 3.0.0-M3.
