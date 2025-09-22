@@ -26,7 +26,7 @@
 
     <release version="2.3.0" date="not released">
       <action type="update" dev="sseifert">
-        Switch minimum Java version for build environment to Java 17. Default version for compilation remains Java 11.
+        Switch minimum Java to Java 17 - both for build and compile target.
       </action>
       <action type="update" dev="sseifert">
         Update global-parent dependency to 70.

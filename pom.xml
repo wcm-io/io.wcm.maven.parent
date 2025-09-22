@@ -74,7 +74,7 @@
 
   <properties>
     <!-- Java version -->
-    <java.version>11</java.version>
+    <java.version>17</java.version>
 
     <!-- site settings -->
     <site.url.module.prefix>tooling/maven</site.url.module.prefix>
