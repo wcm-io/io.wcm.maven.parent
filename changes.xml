@@ -24,6 +24,15 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
+    <release version="2.3.0" date="2025-09-24">
+      <action type="update" dev="sseifert">
+        Switch minimum Java to Java 17 - both for build and compile target.
+      </action>
+      <action type="update" dev="sseifert">
+        Update global-parent dependency to 70.
+      </action>
+    </release>
+
     <release version="2.2.6" date="2025-07-25">
       <action type="update" dev="sseifert">
         Update global-parent dependency to 66.

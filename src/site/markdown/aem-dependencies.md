@@ -23,7 +23,7 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-cloud-dependencies
 *Please note*: Since version `2024.7.17098.20240711T134106Z-240600.0000` JSONP 2.1 and Johnzon 2.x is used by default by this POM. If your code, or dependencies of your project, still rely on JSONP 1.1 and Johnzon 1.2.x, you can use the [Mixin for JSONP 1.1](https://github.com/wcm-io/io.wcm.maven.aem-cloud-dependencies-mixin-jsonp11).
 
 
-### AEM 6.5 - Latest Version
+### AEM 6.x - Latest Version
 
 [![Maven Central](https://img.shields.io/maven-central/v/io.wcm.maven/io.wcm.maven.aem-dependencies)](https://repo1.maven.org/maven2/io/wcm/maven/io.wcm.maven.aem-dependencies/)
 
@@ -43,25 +43,25 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-dependencies
 
 ### Older AEM 6.x versions
 
+#### AEM 6.5.23
+
+```xml
+<dependency>
+  <groupId>io.wcm.maven</groupId>
+  <artifactId>io.wcm.maven.aem-dependencies</artifactId>
+  <version>6.5.23.0001</version>
+  <type>pom</type>
+  <scope>import</scope>
+</dependency>
+```
+
 #### AEM 6.5.0
 
 ```xml
 <dependency>
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-  <version>6.5.0.0007</version>
-  <type>pom</type>
-  <scope>import</scope>
-</dependency>
-```
-
-#### AEM 6.4.8
-
-```xml
-<dependency>
-  <groupId>io.wcm.maven</groupId>
-  <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-  <version>6.4.8.0006</version>
+  <version>6.5.0.0008</version>
   <type>pom</type>
   <scope>import</scope>
 </dependency>
@@ -74,18 +74,6 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-dependencies
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.aem-dependencies</artifactId>
   <version>6.4.0.0004</version>
-  <type>pom</type>
-  <scope>import</scope>
-</dependency>
-```
-
-#### AEM 6.3.3
-
-```xml
-<dependency>
-  <groupId>io.wcm.maven</groupId>
-  <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-  <version>6.3.3.0002</version>
   <type>pom</type>
   <scope>import</scope>
 </dependency>
