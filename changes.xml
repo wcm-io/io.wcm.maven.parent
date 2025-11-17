@@ -26,7 +26,7 @@
 
     <release version="2.3.2" date="not released">
       <action type="update" dev="sseifert">
-        Update global-parent dependency to 72.
+        Update global-parent dependency to 73.
       </action>
       <action type="update" dev="sseifert">
         Update testing dependencies.
