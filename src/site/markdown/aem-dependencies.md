@@ -43,13 +43,13 @@ Source code: https://github.com/wcm-io/io.wcm.maven.aem-dependencies
 
 ### Older AEM 6.x versions
 
-#### AEM 6.5.23
+#### AEM 6.5.24
 
 ```xml
 <dependency>
   <groupId>io.wcm.maven</groupId>
   <artifactId>io.wcm.maven.aem-dependencies</artifactId>
-  <version>6.5.23.0001</version>
+  <version>6.5.24.0000</version>
   <type>pom</type>
   <scope>import</scope>
 </dependency>
