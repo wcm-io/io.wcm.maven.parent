@@ -24,9 +24,9 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
-    <release version="2.3.2" date="not released">
+    <release version="2.3.2" date="2025-12-05">
       <action type="update" dev="sseifert">
-        Update global-parent dependency to 73.
+        Update global-parent dependency to 74.
       </action>
       <action type="update" dev="sseifert">
         Update testing dependencies.
