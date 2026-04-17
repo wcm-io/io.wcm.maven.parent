@@ -24,6 +24,21 @@
     xsi:schemaLocation="http://maven.apache.org/changes/2.0.0 https://maven.apache.org/xsd/changes-2.0.0.xsd">
   <body>
 
+    <release version="2.4.0" date="2026-04-17">
+      <action type="add" dev="sseifert" issue="93">
+        Apply automatic Spotless formatting for Java and POM files.
+      </action>
+      <action type="update" dev="sseifert">
+        Update global-parent dependency to 76.
+      </action>
+      <action type="update" dev="sseifert">
+        Update testing dependencies.
+      </action>
+      <action type="remove" dev="sseifert">
+        Remove license-maven-plugin as it is not longer required with spotless plugin.
+      </action>
+    </release>
+
     <release version="2.3.2" date="2025-12-05">
       <action type="update" dev="sseifert">
         Update global-parent dependency to 74.
